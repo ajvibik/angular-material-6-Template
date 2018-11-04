@@ -9,22 +9,22 @@ export class DragndropComponent {
 
   todos: Object[] = [{
     finished: true,
-    name: 'Learn Angular 2.0',
+    name: 'Learn Angular 2.0'
   }, {
     finished: true,
-    name: 'Learn Angular Material 2.0',
+    name: 'Learn Angular Material 2.0'
   }, {
     finished: false,
-    name: 'Build examples',
+    name: 'Build examples'
   }, {
     finished: false,
-    name: 'Documentation',
+    name: 'Documentation'
   }, {
     finished: false,
-    name: 'Write about your findings',
+    name: 'Write about your findings'
   }, {
     finished: false,
-    name: 'Contribute back to the community',
+    name: 'Contribute back to the community'
   }, ];
 
   links: any[] = [{

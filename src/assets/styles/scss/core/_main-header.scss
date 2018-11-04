@@ -26,9 +26,9 @@ mat-toolbar {
     text-align: center;
   }
   &.main-header {
-    padding: 0 8px;
+    padding: 0 5px;
     position: relative;
-    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.3);
     z-index: 9;
     .branding {
       display: -webkit-box;
@@ -42,9 +42,9 @@ mat-toolbar {
       margin: auto 0;
       line-height: 50px;
       padding: 0 64px 0 16px;
-    }
+    } 
     .logo {
-      background-image: url(/assets/images/msupplyLetter.png);
+      background-image: url(assets\images/logo1.png);
     
       -webkit-background-size: 174px 52px;
     
@@ -55,7 +55,7 @@ mat-toolbar {
     }
     .search-bar {
       .search-form {
-        background: rgba(255,255,255,1);
+        background: rgb(255, 255, 255);
         position: relative;
         border-radius: $border-radius-large;
         margin-right: $gutter;
@@ -89,7 +89,7 @@ mat-toolbar {
   mat-toolbar {
     &.main-header {
       .branding {
-        padding: 0 16px 0 16px;
+        padding: 0 50px 0 50px;
       }
       .logo {
         width: 87px;
@@ -104,7 +104,7 @@ mat-toolbar {
 [dir="rtl"] {
   .main-header {
     .branding {
-      padding: 0 16px 0 64px;
+      padding: 0 50px 0 50px;
     }
     .search-bar {
       .search-form {
